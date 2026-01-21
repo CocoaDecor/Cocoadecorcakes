@@ -51,3 +51,45 @@
 
 </body>
 </html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fde6ee;
+  color: #4a2c2a;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #f7c1d9, #fce4ec);
+  padding: 40px;
+}
+
+h1 {
+  color: #c89b3c;
+}
+
+.btn {
+  background: #c89b3c;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #f7c1d9;
+  padding: 15px;
+}
