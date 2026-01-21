@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cocoa Decor Cakes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cocoa Decor Cakes</h1>
+  <p>Luxury Custom Cakes & Dessert Treats</p>
+  <a href="order.html" class="btn">Order Now</a>
+</header>
+
+<section class="products">
+  <h2>Our Products</h2>
+
+  <div class="product">
+    <h3>3D Custom Cakes</h3>
+    <p>Custom sculpted cakes designed to impress.</p>
+    <a href="order.html" class="btn">Order This</a>
+  </div>
+
+  <div class="product">
+    <h3>Wedding Cakes</h3>
+    <p>Elegant cakes crafted for your special day.</p>
+    <a href="order.html" class="btn">Order This</a>
+  </div>
+
+  <div class="product">
+    <h3>Dessert Treats</h3>
+    <p>Cupcakes, favors & dessert tables.</p>
+    <a href="order.html" class="btn">Order This</a>
+  </div>
+</section>
+
+<footer>
+  <p>📞 973-392-9197 | 📧 Cocoadecor2013@gmail.com</p>
+  <p>Pickup & Delivery Available</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Cocoa Decor Cakes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Place Your Order</h2>
+
+<p>Click below to submit your custom order request:</p>
+
+<a class="btn" href="PASTE_YOUR_GOOGLE_FORM_LINK_HERE" target="_blank">
+Submit Order Request
+</a>
+
+<h3>Accepted Payments</h3>
+<p>Cash App • Zelle • Apple Pay • PayPal</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cake Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Our Cake Gallery</h2>
+<p>Upload your cake photos here later.</p>
+
+<div class="gallery">
+  <div class="photo">Cake Image</div>
+  <div class="photo">Cake Image</div>
+  <div class="photo">Cake Image</div>
+</div>
+
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  background: #fde6ee;
+  text-align: center;
+  color: #4a2c2a;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #f7c1d9, #fce4ec);
+  padding: 40px;
+}
+
+h1 {
+  color: #c89b3c;
+}
+
+.btn {
+  background: #c89b3c;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.products {
+  padding: 30px;
+}
+
+.product {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background: #f7c1d9;c
+}
