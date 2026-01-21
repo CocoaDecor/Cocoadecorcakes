@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cocoa Decor Cakes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cocoa Decor Cakes</h1>
+  <p>Luxury Custom Cakes & Dessert Treats</p>
+  <a href="#order" class="btn">Order Now</a>
+</header>
+
+<section>
+  <h2>Our Specialties</h2>
+
+  <div class="card">
+    <h3>3D Custom Cakes</h3>
+    <p>Unique, artistic cakes designed to impress.</p>
+  </div>
+
+  <div class="card">
+    <h3>Wedding Cakes</h3>
+    <p>Elegant wedding cakes crafted for your special day.</p>
+  </div>
+
+  <div class="card">
+    <h3>Dessert Treats</h3>
+    <p>Cupcakes, treats, and favors for any event.</p>
+  </div>
+</section>
+
+<section id="order">
+  <h2>Place an Order</h2>
+  <p>Email us your order details or click below.</p>
+  <a class="btn" href="mailto:Cocoadecor2013@gmail.com">Send Order Request</a>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>📞 973-392-9197</p>
+  <p>📧 Cocoadecor2013@gmail.com</p>
+  <p>Pickup & Delivery Available</p>
+</section>
+
+<footer>
+  <p>© Cocoa Decor Cakes</p>
+</footer>
+
+</body>
+</html>
